@@ -45,5 +45,22 @@ header {
     padding: 20px;
     border: 2px solid grey;
     border-radius: 5px;
+    position: relative;
+    
 
+}
+
+.bookmark {
+    position: absolute;
+    right: -20px;
+    
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    height: 40px;
+    background-color: lightgray;
+    align-items: center;
+    
 }
