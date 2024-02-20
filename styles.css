@@ -114,3 +114,8 @@ button {
     border: 0px;
     
 }
+
+.show-answer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
