@@ -8,11 +8,15 @@
     <title> Quizapp</title>
 </head>
 <body>
-    <header> Quiz App</header>
+
+    <header> <h1>Quiz App </h1></header>
+    <main>
     <section class="question-card"> 
-    <button class="bookmark"> bookmark</button>
-    <h3 class="question">What property flips the axes in flexbox?</h3>
-    <button class="show-answer">show answer</button>
+    <button class="bookmark" aria-label="save-in-bookmarks"> 
+        <img class="bookmark-img"src="./img/heart.png">
+        </button>
+    <h2 class="question">What property flips the axes in flexbox?</h2>
+    <button class="show-answer" aria-label="shows-answer">show answer</button>
     <ul class="tags"> 
         <li> #html</li>
         <li> #flexbox</li>
@@ -22,21 +26,25 @@
     </section>
 
     <section class="question-card"> 
-        <button class="bookmark"> bookmark</button>
-        <h3 class="question">Question Number 2 bla bla?</h3>
-        <button class="show-answer">show answer</button>
+        <button class="bookmark" aria-label="save-in-bookmarks"> 
+            <img class="bookmark-img"src="./img/heart.png">
+            </button>
+        <h2 class="question">What property flips the axes in flexbox?</h2>
+        <button class="show-answer" aria-label="shows-answer">show answer</button>
         <ul class="tags"> 
-            <li> #tag1</li>
+            <li> #html</li>
             <li> #flexbox</li>
-            <li> #tag2</li>
+            <li> #css</li>
         </ul>
     
         </section>
 
         <section class="question-card"> 
-            <button class="bookmark"> bookmark</button>
-            <h3 class="question">What property flips the axes in flexbox?</h3>
-            <button class="show-answer">show answer</button>
+            <button class="bookmark" aria-label="save-in-bookmarks"> 
+                <img class="bookmark-img"src="./img/heart.png">
+                </button>
+            <h2 class="question">What property flips the axes in flexbox?</h2>
+            <button class="show-answer" aria-label="shows-answer">show answer</button>
             <ul class="tags"> 
                 <li> #html</li>
                 <li> #flexbox</li>
@@ -45,8 +53,11 @@
         
             </section>
 
+    
+        </main>
+
             <nav> 
-                <a href="#"> Home </a>
+                <a class="active" href="#"> Home </a>
                 <a href="bookmarks.html"> Bookmarks </a>
                 <a href="profile.html"> Profile</a>
 

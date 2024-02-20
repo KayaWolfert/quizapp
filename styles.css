@@ -4,30 +4,37 @@
     padding: 0px;
 }
 
+body { background-color: #ebf6f6
+
+}
+
 header {
-    background-color: darkcyan;
+    background-color: #00b1b7;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    top: 0px;
+    
 }
 
 .tags {
     display: flex;
     justify-content: start;
+    gap: 10px;
     
 
 }
 
 .tags li {
     list-style: none;
-    background-color: aquamarine;
+    background-color: #89cccf;
     padding: 10px;
-    margin-right: 5px;
     border-radius: 5px;
     font-size: 13px;
+    
     
 }
 
@@ -42,25 +49,68 @@ header {
     margin: 30px;
     width: 300px;
     background-color: azure;
-    padding: 20px;
-    border: 2px solid grey;
+    padding: 30px;
     border-radius: 5px;
     position: relative;
+    background-color: white;
+
     
+
+}
+
+h2 {
+    font-size: 20px;
 
 }
 
 .bookmark {
     position: absolute;
-    right: -20px;
+    right: 5px;
+    top: 5px;
     
+    
+}
+
+.bookmark-img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.bookmark-img:hover {
+    width: 40px;
+    height: 40px;
+
 }
 
 nav {
     display:flex;
     justify-content: space-around;
     height: 40px;
-    background-color: lightgray;
+    background-color: #00b1b7;
     align-items: center;
+    position:fixed;
+    width: 100%;
+    bottom:0px;
+    
+}
+
+a{
+    color:white;
+}
+
+.active{
+    background-color: white;
+    color:#00b1b7;
+}
+
+button {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.bookmark {
+    border: 0px;
     
 }
