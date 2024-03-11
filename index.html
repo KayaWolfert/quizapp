@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="/js/index.js" defer></script>
     <title>Quizapp</title>
   </head>
   <body>
     <header><h1>Quiz App</h1></header>
     <main>
       <section class="question-card">
-        <button class="bookmark" aria-label="save in bookmarks">
+        <button class="bookmark" aria-label="save in bookmarks"  data-js="card-bookmark">
           <img class="bookmark-img" src="./img/heart.png" alt="heart icon" />
         </button>
         <h2 class="question">What property flips the axes in flexbox?</h2>
-        <button class="show-answer">show answer</button>
+        <button class="show-answer" data-js="show-answer">show answer</button>
+        <p class="answer hidden" data-js="answer-text"> flex-direction</p>
         <ul class="tags">
           <li>#html</li>
           <li>#flexbox</li>

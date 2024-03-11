@@ -5,6 +5,7 @@
     border: 0px;
     
     
+    
 }
 
 .home-img {
@@ -23,7 +24,7 @@
 .bookmark-img {
     width: 25px;
     height: 25px;
-
+    
 }
 
 .bookmark-img-nav{
@@ -35,5 +36,9 @@
 .bookmark-img:hover {
     width: 40px;
     height: 40px;
+
+}
+
+.bookmark-clicked {
 
 }

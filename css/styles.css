@@ -40,6 +40,8 @@ header {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .show-answer:hover {
@@ -94,7 +96,15 @@ button {
 
 
 
-.show-answer{
-    padding-left: 10px;
-    padding-right: 10px;
+.cardBookmark-clicked{
+    background-color: #89cccf;
+}
+
+.hidden{
+    display:none;
+    
+}
+
+p {
+    margin-bottom: 20px;
 }
