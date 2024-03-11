@@ -96,9 +96,7 @@ button {
 
 
 
-.cardBookmark-clicked{
-    background-color: #89cccf;
-}
+
 
 .hidden{
     display:none;
@@ -108,3 +106,4 @@ button {
 p {
     margin-bottom: 20px;
 }
+
