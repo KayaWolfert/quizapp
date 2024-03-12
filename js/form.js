@@ -30,7 +30,7 @@ form.addEventListener("submit", (event) => {
 
   const newButton = document.createElement('button');
   newButton.classList.add('show-answer');
-  newButton.textContent = "show answer";
+  newButton.textContent = "hide answer";
   newSection.append(newButton);
 
   const newAnswerText = document.createElement('p');
@@ -45,6 +45,23 @@ form.addEventListener("submit", (event) => {
 
   newSection.append(newTagList);
   newTagList.append(newTagField);
+
+  newButton.addEventListener("click", () => {
+    newAnswerText.classList.toggle("hidden");
+    if (newButton.textContent === "show answer"){
+        newButton.textContent = "hide answer";
+    } else {
+        newButton.textContent = "show answer";
+    }
+});
+
+newBookmark.addEventListener("click", () => {
+  newBookmark.classList.toggle("cardBookmark-clicked");
+  
+  });
+
+
+
 });
 
 
@@ -62,6 +79,4 @@ questionInput.addEventListener('input', () => {
     display2.textContent = "characters left : " + (150 - answerInput.value.length);
   });
 
-  function updateDisplay(){
-    
-  }
+  
