@@ -48,3 +48,20 @@ form.addEventListener("submit", (event) => {
 });
 
 
+const questionInput= document.querySelector('[data-js="question-input"]');
+
+const answerInput= document.querySelector('[data-js="answer-input"]');
+const display1 = document.querySelector('[data-js="displaytext1"]');
+const display2 = document.querySelector('[data-js="displaytext2"]');
+
+questionInput.addEventListener('input', () => {
+  display1.textContent = "characters left: " + (150 - questionInput.value.length);
+  });
+
+  answerInput.addEventListener('input', () => {
+    display2.textContent = "characters left : " + (150 - answerInput.value.length);
+  });
+
+  function updateDisplay(){
+    
+  }
